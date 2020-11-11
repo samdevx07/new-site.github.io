@@ -1,0 +1,55 @@
+.team-members-area{
+    background: $th-color5;
+    padding: 122px 0;
+    .teamHead{
+        h2{
+            position: relative;
+            color:$bl-color;
+            font-weight: 700;
+        }
+        p{
+            margin:45px 0;
+            text-align: center;
+            font-size: 18px;
+            color:$bg-color;
+        }
+    }
+
+    .card-area{
+        .card-title{
+            margin-top:40px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .card-sub-hd{
+            color:$hv-color;
+            font-size: 16px;
+        }
+        p{
+            color:$bl-color;
+            margin:20px 0;
+        }
+        .card-foot{
+            align-items: center;
+            justify-content: center;
+            .items a{
+                display: inline-block;
+                padding:10px 13px;
+                background:#bdd1df;
+                margin:0 10px;
+                font-size: 15px;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+                color:#fff;
+            }   
+            .items a:hover{
+                background: $hv-color2;
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,34 @@
+/*Services Area*/
+.services-area{
+    padding:121px;
+    background:$th-color1;
+    color:#fff;
+    .sr-h2{
+        margin-bottom: 50px;
+        font-weight: 700;
+        text-align: center;
+        position: relative;
+    }
+    .sr-p{
+        color:#fff;    
+        padding: 0 248px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .services-cards{
+        .card-img{
+            padding:40px 0;
+        }
+        .card-body{
+            .card-title{
+                font-size: 24px;
+                font-weight: bold;
+            }
+            p{
+                color:$wh-color;
+                font-size: 16px;
+            }
+        }
+    }
+}

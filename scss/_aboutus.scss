@@ -1,0 +1,46 @@
+.about-us{
+    padding:116px 0;
+    background: $th-color3;
+    .about-head{
+        .about-title{
+            font-weight: 700;
+            color:$wh-color;
+        }
+        p{
+            color:$wh-color;
+        }
+    }
+    .card-sec{
+        .card-wrapper{ 
+            margin: 85px 0;           
+            .card-img{
+                width: 100px;
+                height: 100px;
+                background:$bl-color;
+                border-radius: 55px;
+                -webkit-border-radius: 55px;
+                -moz-border-radius: 55px;
+                -ms-border-radius: 55px;
+                -o-border-radius: 55px;
+                margin-right: 50px;
+            }
+            .text-sec{
+                P{
+                    font-size: 21px;
+                    color:#fff;
+                }
+                h2{
+                    font-size: 24px;
+                    font-weight: 700;
+                    color:$wh-color;
+                    margin: 0;
+                }
+                p.title{
+                    font-size: 18px;
+                    color:#ffdd99;
+                }
+            }
+        }
+    }
+
+}

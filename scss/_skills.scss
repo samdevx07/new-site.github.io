@@ -1,0 +1,47 @@
+.skills{
+    padding:116px 0;
+
+    .skills-head{
+        .sk-head{
+            position: relative;
+            font-weight: bold;
+            color:$bl-color;
+            margin-bottom: 43px;
+        }
+        p{
+            padding: 0px 285px;
+            margin-bottom: 90px;
+        }
+    }
+    .progree-title h2{
+        margin-top:30px;
+        font-weight: 700;
+        color:$bl-color;
+    }
+
+    .pr-img{
+        svg.radial-progress {
+            height: auto;
+            max-width: 200px;
+            padding: 1em;
+            transform: rotate(-90deg);
+            width: 100%;
+        }
+          
+        svg.radial-progress circle {
+            fill: rgba(0,0,0,0);
+            stroke: rgb(7, 177, 255);
+            stroke-dashoffset: 219.91148575129; 
+            stroke-width: 10;
+        }
+          
+        svg.radial-progress circle.incomplete { opacity: 0.25; }
+          
+        svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+          
+        svg.radial-progress text {
+            fill: rgb(0, 153, 255);
+            text-anchor: middle;
+        }
+    }
+}

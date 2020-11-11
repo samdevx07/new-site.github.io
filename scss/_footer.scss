@@ -1,0 +1,17 @@
+footer{
+    background:#344b8e;
+    border-top: 1px solid #3c5499;
+    padding: 46px 0;
+    .footer-menu{
+        li{
+            a{
+                padding: 0 27px;
+                color:$wh-color;
+            }
+            a:hover{
+                padding: 0 27px;
+                color:$hv-color;
+            }
+        }
+    }
+}
